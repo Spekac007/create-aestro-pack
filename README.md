@@ -2,7 +2,7 @@
 
 Minecraft **1.21.1**, **NeoForge 21.1.250**, 143 módov. Pack sa kamošom aktualizuje sám pri každom spustení hry (packwiz + GitHub Pages).
 
-Adresa packu: `https://__GHUSER__.github.io/create-aestro-pack/pack.toml`
+Adresa packu: `https://spekac007.github.io/create-aestro-pack/pack.toml`
 
 ---
 
