@@ -1,0 +1,13 @@
+name = "BlockDonald's"
+filename = "blockdonalds-0.3-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/n3z0L6Ir/versions/FN3AcvMK/blockdonalds-0.3-1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "bd44ddb9d37e2c96fee510a737ee096e23ddd66b71e7daed561958fb6ef673ede30dac69a98e009614e7c2288c7349a3b3e9dcdd8d1000a4806bfd0e724c89d0"
+
+[update]
+[update.modrinth]
+mod-id = "n3z0L6Ir"
+version = "FN3AcvMK"

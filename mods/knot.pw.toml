@@ -1,0 +1,13 @@
+name = "Knot"
+filename = "knot-9.1.0-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/V9WxBDCZ/versions/iO33q9kf/knot-9.1.0-neoforge.jar"
+hash-format = "sha512"
+hash = "1a4fd08f80998f8eb694d8cf46cc614205df0389e77689e343001d691ab376e0f7736f448c269d19480c089e572725110fdcbc23a21a1ee5c74afd02328f3b9d"
+
+[update]
+[update.modrinth]
+mod-id = "V9WxBDCZ"
+version = "iO33q9kf"

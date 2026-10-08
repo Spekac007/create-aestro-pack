@@ -1,0 +1,6 @@
+# Lokalne/nástrojové súbory, ktoré nepatria do repa
+*.jar
+packwiz.exe
+Thumbs.db
+desktop.ini
+.DS_Store

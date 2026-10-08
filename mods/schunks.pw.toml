@@ -1,0 +1,13 @@
+name = "SeamlessChunks"
+filename = "seamlesschunks-neoforge-0.1.0-beta.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MslYld7M/versions/TRl1jpY5/seamlesschunks-neoforge-0.1.0-beta.6.jar"
+hash-format = "sha512"
+hash = "879b71c816058834fd7da306858d6277d38aad92b657c701a1b4a1f03605f63d4c33480565c12d544dc488d3bf7f2fadf6bdf41793acd1857416aec06d2847ad"
+
+[update]
+[update.modrinth]
+mod-id = "MslYld7M"
+version = "TRl1jpY5"

@@ -1,0 +1,13 @@
+name = "Unlit Campfire"
+filename = "unlitcampfire-neoforge-1.21-3.1.2.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yENm0xnb/versions/m1SPmtIv/unlitcampfire-neoforge-1.21-3.1.2.5.jar"
+hash-format = "sha512"
+hash = "653c709111d1eb712ab1c468b7ef3869a9c3011d01f52b2d2986ae9079d543b04de8ac1cbc891515121e0bb1697101483091dd5a1adf1713b9787539850a5fb7"
+
+[update]
+[update.modrinth]
+mod-id = "yENm0xnb"
+version = "m1SPmtIv"
