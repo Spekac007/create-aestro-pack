@@ -3,6 +3,7 @@
 /update.bat
 /preserve-configs.ps1
 /.nojekyll
+/.github/
 
 # Osobne/per-hrac configy (meno hraca, lokalny auth token)
 /config/sounds/chat.json

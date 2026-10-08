@@ -1,0 +1,71 @@
+name: Pridať mód
+run-name: "Pridať mód: ${{ inputs.mod }}"
+
+on:
+  workflow_dispatch:
+    inputs:
+      mod:
+        description: "Slug alebo odkaz (napr. sodium alebo https://modrinth.com/mod/sodium)"
+        required: true
+        type: string
+      zdroj:
+        description: "Odkiaľ"
+        type: choice
+        options: [modrinth, curseforge]
+        default: modrinth
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: pack
+  cancel-in-progress: false
+
+jobs:
+  pridat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+          cache: false
+
+      - name: Nainštalovať packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Pridať mód
+        env:
+          MOD: ${{ inputs.mod }}
+          ZDROJ: ${{ inputs.zdroj }}
+        # -y prijme aj závislosti (dependencies)
+        run: packwiz -y "$ZDROJ" add "$MOD"
+
+      - name: Obnoviť index
+        shell: pwsh
+        run: |
+          packwiz refresh
+          ./preserve-configs.ps1
+          packwiz refresh
+
+      - name: Uložiť zmenu
+        env:
+          MOD: ${{ inputs.mod }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "::warning::Nič sa nezmenilo, mód už v packu asi je."
+            exit 0
+          fi
+          { echo "### Pridané: $MOD"; echo '```'; git diff --cached --name-status; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          git commit -m "Pridany mod: $MOD (cez GitHub)"
+          git push
+
+      - name: Obnoviť GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" --silent || echo "::warning::Pages build sa nepodarilo vyžiadať, obnoví sa sám."

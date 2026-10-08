@@ -1,0 +1,69 @@
+name: Odobrať mód
+run-name: "Odobrať mód: ${{ inputs.mod }}"
+
+on:
+  workflow_dispatch:
+    inputs:
+      mod:
+        description: "Názov = meno súboru .pw.toml bez prípony (napr. sodium)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: pack
+  cancel-in-progress: false
+
+jobs:
+  odobrat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+          cache: false
+
+      - name: Nainštalovať packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Odobrať mód
+        env:
+          MOD: ${{ inputs.mod }}
+        run: |
+          if ! packwiz remove "$MOD"; then
+            echo "::error::Mód '$MOD' v packu nie je. Názov je meno súboru .pw.toml bez prípony, zoznam je v logu nižšie."
+            for d in mods resourcepacks shaderpacks; do [ -d "$d" ] && ls "$d" | sed -n 's/\.pw\.toml$//p'; done
+            exit 1
+          fi
+
+      - name: Obnoviť index
+        shell: pwsh
+        run: |
+          packwiz refresh
+          ./preserve-configs.ps1
+          packwiz refresh
+
+      - name: Uložiť zmenu
+        env:
+          MOD: ${{ inputs.mod }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "::warning::Nič sa nezmenilo."
+            exit 0
+          fi
+          { echo "### Odobrané: $MOD"; echo '```'; git diff --cached --name-status; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          git commit -m "Odobraty mod: $MOD (cez GitHub)"
+          git push
+
+      - name: Obnoviť GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" --silent || echo "::warning::Pages build sa nepodarilo vyžiadať, obnoví sa sám."
