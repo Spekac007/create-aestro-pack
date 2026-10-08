@@ -1986,7 +1986,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/better-3d-beds.pw.toml"
-hash = "6599b9caab9a6b740a6de555b1ff944517aa49ede50a46ae748c585778db7b80"
+hash = "71e7faffc9dfe6063690de1643e5bcf09f968026002d9fe483f2cc8cbbac25e9"
 metafile = true
 
 [[files]]
@@ -2026,7 +2026,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/os-colorful-grasses.pw.toml"
-hash = "6cae24b627f52843247c9ccc81f9a41c2b753df2427eae5a1764732f5870dc29"
+hash = "bd75b091945031ebdb9f3cdd6d5a76e083e6fb48a674e9c01eebc8bf43d5d032"
 metafile = true
 
 [[files]]

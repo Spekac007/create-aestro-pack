@@ -1,13 +1,14 @@
 name = "Better 3D Beds"
-filename = "§lBetter Beds.zip"
+filename = "Better Beds.zip"
 side = "both"
+pin = true
 
 [download]
-url = "https://cdn.modrinth.com/data/LukwUauE/versions/d3akIBaA/%C2%A7lBetter%20Beds.zip"
+url = "https://cdn.modrinth.com/data/LukwUauE/versions/HDxeMZ79/Better%20Beds.zip"
 hash-format = "sha512"
-hash = "cbae31fd16d757eba34e539c60b979e6fb5062a01810a33633914d2cce98d4072a902c4119bd9c192f461b755c676c0ac2eb866725e3a58a2e72cdc1d0ad56dd"
+hash = "412938e88c5dfdf06807891322bce5eeb0b05e10550e23a6bdb928dcdf209cd92e0d1cd23625f385a95245c447fdd153f8ef77772613c1790db67e9aca1f97ce"
 
 [update]
 [update.modrinth]
 mod-id = "LukwUauE"
-version = "d3akIBaA"
+version = "HDxeMZ79"
