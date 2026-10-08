@@ -23,8 +23,7 @@ Ak by sa niekedy objavilo okno, že treba niečo stiahnuť ručne, klikni na odk
 
 Všetko sa robí v tomto priečinku (`Documents\create-aestro-pack`). Otvor v ňom terminál (v Prieskumníkovi do adresného riadku napíš `cmd` a Enter).
 
-Packwiz je v `Documents\packwiz-tools\packwiz.exe`. Ak nie je v PATH, píš namiesto `packwiz` celú cestu:
-`%USERPROFILE%\Documents\packwiz-tools\packwiz.exe`
+Packwiz je v `Documents\packwiz-tools\packwiz.exe` a tento priečinok je v PATH, takže stačí písať `packwiz`. Na inom PC treba buď pridať priečinok do PATH, alebo písať celú cestu `%USERPROFILE%\Documents\packwiz-tools\packwiz.exe`.
 
 ### Pridať mód
 
