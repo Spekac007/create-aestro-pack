@@ -10,8 +10,10 @@ Adresa packu: `https://spekac007.github.io/create-aestro-pack/pack.toml`
 
 1. Stiahni si `Create-Aestro.zip` (pošlem ti ho).
 2. Prism Launcher → **Pridať inštanciu** (Add Instance) → **Importovať** (Import) → vyber zip → OK.
-3. Spusti inštanciu. Pri prvom spustení sa stiahnu všetky módy (cca 700 MB), chvíľu to trvá.
+3. Spusti inštanciu (volá sa `Create-Aestro`). Pri prvom spustení sa stiahnu všetky módy (cca 700 MB), chvíľu to trvá.
 4. Hotovo. Pri každom ďalšom spustení sa pack sám aktualizuje, nič neriešiš.
+
+Ak pri spustení vyskočí okno `packwiz-installer-bootstrap` s chybou sťahovania (napr. `Connection reset`), je to len výpadok spojenia s GitHubom: daj OK a spusti hru znova.
 
 Ak by sa niekedy objavilo okno, že treba niečo stiahnuť ručne, klikni na odkaz, stiahni súbor a daj ho tam, kam okno ukazuje.
 
