@@ -14,6 +14,9 @@ set "PACKWIZ=packwiz"
 where packwiz >nul 2>nul || set "PACKWIZ=%USERPROFILE%\Documents\packwiz-tools\packwiz.exe"
 
 "%PACKWIZ%" refresh || goto :error
+rem Configy oznaci ako preserve, aby sa hracom neprepisali ich vlastne nastavenia
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0preserve-configs.ps1" || goto :error
+"%PACKWIZ%" refresh || goto :error
 git add -A || goto :error
 git diff --cached --quiet && (
   echo Ziadne zmeny na commitnutie.

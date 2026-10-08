@@ -17,6 +17,17 @@ Ak pri spustení vyskočí okno `packwiz-installer-bootstrap` s chybou sťahovan
 
 Ak by sa niekedy objavilo okno, že treba niečo stiahnuť ručne, klikni na odkaz, stiahni súbor a daj ho tam, kam okno ukazuje.
 
+Resource packy si zapni v hre: Options → Resource Packs.
+
+## Pre kamošov, čo už majú svoju inštanciu (svet, nastavenia)
+
+1. Stiahni si `Create-Aestro-PRIPOJENIE.zip` (pošlem ti ho) a rozbaľ ho.
+2. Úplne zavri Prism Launcher a spusti `PRIPOJIT.bat`.
+3. Vyber číslo svojej inštancie. Skript presunie `mods` do zálohy, pridá bootstrap a nastaví Pre-launch command.
+4. Spusti inštanciu v Prisme, módy sa stiahnu z packu.
+
+Svety, `options.txt`, JourneyMap a tvoje configy ostanú. Podrobnosti a ručný postup sú v `NAVOD.txt` v zipe.
+
 ---
 
 ## Pre mňa: správa packu
@@ -62,6 +73,8 @@ update.bat "Update modov"
 
 Configy daj do `config\` v tomto priečinku (rovnaká štruktúra ako `minecraft\config` v inštancii) a spusti `update.bat "Configy"`.
 
+Všetky súbory v `config\` majú v `index.toml` príznak `preserve = true` (pridáva ho `update.bat` cez `preserve-configs.ps1`). Kamoš dostane config z packu len vtedy, keď ho ešte nemá, takže sa mu neprepíšu vlastné nastavenia. Ak chceš nejaký config kamošom **vynútiť** (aj tým, čo ho už majú), pridaj jeho cestu do zoznamu `$vynimky` na začiatku `preserve-configs.ps1` (napr. `'config/create-client.toml'`) a spusti `update.bat`. KubeJS skripty `preserve` nemajú, tie sa aktualizujú vždy.
+
 `config\sounds\chat.json` (je v ňom tvoje meno) a `kubejs\config\web_server.json` (súkromný token) sa zámerne nenahrávajú, sú v `.gitignore` aj `.packwizignore`.
 
 ### Ako vyskúšať zmeny pred pushnutím
@@ -74,4 +87,4 @@ Potom v testovacej inštancii v Prisme zmeň Pre-launch command na `http://local
 
 ### Čo robí update.bat
 
-`packwiz refresh` → `git add -A` → `git commit -m "<správa>"` → `git push`. GitHub Pages sa obnoví do 1–2 minút a kamoši dostanú zmeny pri ďalšom spustení hry.
+`packwiz refresh` → `preserve-configs.ps1` → `packwiz refresh` → `git add -A` → `git commit -m "<správa>"` → `git push`. GitHub Pages sa obnoví do 1–2 minút a kamoši dostanú zmeny pri ďalšom spustení hry.

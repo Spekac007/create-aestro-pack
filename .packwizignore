@@ -1,6 +1,7 @@
 # Súbory repa, ktoré sa NEMAJÚ sťahovať kamošom do hry
 /README.md
 /update.bat
+/preserve-configs.ps1
 /.nojekyll
 
 # Osobne/per-hrac configy (meno hraca, lokalny auth token)

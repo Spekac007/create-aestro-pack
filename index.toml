@@ -3,742 +3,927 @@ hash-format = "sha256"
 [[files]]
 file = "config/DistantHorizons.toml"
 hash = "2d9b749701d63f5a349c5b28564ee3d53a25dafa66f76f9591c82b928a65414f"
+preserve = true
 
 [[files]]
 file = "config/appleskin-client.toml"
 hash = "7127a276c7305371397053cd8d0833e6825c828850626e4067b9fed1430ed217"
+preserve = true
 
 [[files]]
 file = "config/aquaculture-common.toml"
 hash = "e8d9fdd5fe9b62b1dc3019fdb9489406654f0336d05bc23f217a1152ad0efe24"
+preserve = true
 
 [[files]]
 file = "config/badoptimizations.txt"
 hash = "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9"
+preserve = true
 
 [[files]]
 file = "config/better-advanced-tooltips-client.toml"
 hash = "5b0da765c45397402cffe340f632544a8e740a767937f353a3a8206b6cdde0fa"
+preserve = true
 
 [[files]]
 file = "config/betteradvancements-client.toml"
 hash = "38e88509078026a5a660e00947e5a6db74a3c374c8c7978ef64c360167f84db9"
+preserve = true
 
 [[files]]
 file = "config/betterdays-client.toml"
 hash = "730b13a15e01a03825fc40477758799ed8801c783d9cf829867c43c1b08f7ad9"
+preserve = true
 
 [[files]]
 file = "config/betterdays-common.toml"
 hash = "03e4858e141353192b4616f179003be4086cca2a4c22aa37872f610ac6285573"
+preserve = true
 
 [[files]]
 file = "config/betterthirdperson-common.toml"
 hash = "55406dc103678dc459c50fbb85bcdc7b9e7421576b4ee56e57344dd6c79cf140"
+preserve = true
 
 [[files]]
 file = "config/brewinandchewin-client.toml"
 hash = "8e7861a1c13f1169b024f17922e99eed9e7b2c9799c949c00c51ebda216e56f9"
+preserve = true
 
 [[files]]
 file = "config/brewinandchewin-common.toml"
 hash = "47a015989efd4754fbf33a225f07328998919fde0a2b388c6fdf8316f38bf19a"
+preserve = true
 
 [[files]]
 file = "config/bridgingmod.json"
 hash = "2f3b312ba9110f5af338d362b35f09c442c01cc4cb9187da9626de7cc10e2d01"
+preserve = true
 
 [[files]]
 file = "config/carryon-client.toml"
 hash = "865a366143df5f4d92941058c823ea48deb8445f6444b45e870331b16a444f0f"
+preserve = true
 
 [[files]]
 file = "config/carryon-common.toml"
 hash = "61413d3baf24cd7106e2be4c2f62b0ede74258051daf0ed2a157ad7b3a73d1aa"
+preserve = true
 
 [[files]]
 file = "config/chat_heads.json5"
 hash = "e198750061411cf7fca624e38b894ca104ca2cf2c2940da0409ce4240dcc2503"
+preserve = true
 
 [[files]]
 file = "config/chefsdelight-common.toml"
 hash = "34eaa67477d6830c40365c598662234b0ade2e2d72f53bb0e0128335a8485312"
+preserve = true
 
 [[files]]
 file = "config/clickthrough.json"
 hash = "fa77382569bcc6a93a4b38f7f63a4de7de17acefada9cd774b3b3442dc8bae34"
+preserve = true
 
 [[files]]
 file = "config/comforts-common.toml"
 hash = "1f21c10bfce9cd25aea641046a79df88867f68ba8ba3838a5e1662521f9f06a2"
+preserve = true
 
 [[files]]
 file = "config/comforts-server.toml"
 hash = "f6df47d3f1002fde8d9e59c8068acbc39e976b3392e8fd528dc9b38b2856c5a0"
+preserve = true
 
 [[files]]
 file = "config/connectiblechains.toml"
 hash = "ceff5234fb2d7ac7ef0ff569dacfcfa18e4b75ab6be9a0bf532c00fa94551a5e"
+preserve = true
 
 [[files]]
 file = "config/connector.json"
 hash = "67bee06b2b321ed25e0d4e9b5bac7ab76c8ae76442de6caf11f463ce2ae1ac5e"
+preserve = true
 
 [[files]]
 file = "config/continuity.json"
 hash = "00267a602028cbb037dcb0b5f803db31bed284235ca9c1ea189ad4179311a2f4"
+preserve = true
 
 [[files]]
 file = "config/copycats-client.toml"
 hash = "381f51308cca7e8aaa1aebb9253a6be686f74ebc70d4da39dd7750d2ca2e9598"
+preserve = true
 
 [[files]]
 file = "config/copycats-common.toml"
 hash = "4554d0df9a25e4f58c07df938806bb435fa2556263b60537bcd8f3f3cd28f1c3"
+preserve = true
 
 [[files]]
 file = "config/create-client.toml"
 hash = "cce3eab1a290cc1f0eada00031f0577f661f883aee3438cf1139283c65d1f319"
+preserve = true
 
 [[files]]
 file = "config/create-common.toml"
 hash = "2e77b1d93b40ce3f381ad7eb2a9e6d7148de917518be5c2616939a4369c4b140"
+preserve = true
 
 [[files]]
 file = "config/create_aeronautics_throwable_rope_connector-common.toml"
 hash = "1bc0378dfeae3168554d69d6d89886bb72e812e0f93fb9984af90b02f99df150"
+preserve = true
 
 [[files]]
 file = "config/create_dragons_plus-client.toml"
 hash = "cf30f0e99ef65fe80e80481bf9aaafefdbbf97adb84c0c3611ac2d9ca3cf8a28"
+preserve = true
 
 [[files]]
 file = "config/create_dragons_plus-common.toml"
 hash = "134e5d1beb5e8cc7f22e20178c2a995ab4e1e83ddeca8048739ed000fc3a964e"
+preserve = true
 
 [[files]]
 file = "config/create_jetpack-client.toml"
 hash = "89094f05746ba946d303ca7fd7888094c34165b4af507317e081b6c9b5f7ecc3"
+preserve = true
 
 [[files]]
 file = "config/create_jetpack-common.toml"
 hash = "bce3e041f9d13dc8b35ce61bf5726088da2a243b9d6c9e9509036977a415a0a1"
+preserve = true
 
 [[files]]
 file = "config/create_submarine-common.toml"
 hash = "844cd7bee1af060730342231866cd2d6093043d12395b560566f4e00782cd70d"
+preserve = true
 
 [[files]]
 file = "config/create_submarine_client_state.json"
 hash = "338a40e6f489e97d7ca58a291a584d90d0ab14c71727a427c7f473ef8313bc89"
+preserve = true
 
 [[files]]
 file = "config/createdieselgenerators-client.toml"
 hash = "2f1d8f05b215da49383ae8a04ffadcb12202830a6cb2fbada26caaed9ce35dec"
+preserve = true
 
 [[files]]
 file = "config/createdieselgenerators-common.toml"
 hash = "9745e0b82765ee9ac86c4340a941e1f26c10b2da19296928d99169fc36dfea1a"
+preserve = true
 
 [[files]]
 file = "config/createdynlight-client.toml"
 hash = "64154e12024e091d6946f99b6b8ed89c1d163192af767d0873259cfcacee4500"
+preserve = true
 
 [[files]]
 file = "config/cullleaves.json"
 hash = "6596cbe9453cc9cf69b4addfb02fe9d1501ffc9254ac047d9cd7a23bc6ce7dcc"
+preserve = true
 
 [[files]]
 file = "config/curios-client.toml"
 hash = "8af475d222d452c40b548db89c8956f3e4d1e2aaf729464e3065f029936b3e0d"
+preserve = true
 
 [[files]]
 file = "config/curios-common.toml"
 hash = "9f00a6b9904cf63a36c0c72f8346642962d538aaa78b59943b9de60dda82e6d0"
+preserve = true
 
 [[files]]
 file = "config/displaydelight-common.toml"
 hash = "c3b979ca6d4cc07cb07e02fa452a3722ff94355d5f7faa04dc6cb28c07cea82a"
+preserve = true
 
 [[files]]
 file = "config/dynamic_fps.json"
 hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+preserve = true
 
 [[files]]
 file = "config/entity_model_features.json"
 hash = "4d13dfd4a71e0f9b0e6f673233856185f10bc2465916d7e43ace4e3621334067"
+preserve = true
 
 [[files]]
 file = "config/entity_texture_features.json"
 hash = "bd66edf9d1a72cd717bbe9b17b41ffd16963b089493e5ddae3d3ad69153105ba"
+preserve = true
 
 [[files]]
 file = "config/entityculling.json"
 hash = "e92e6772c4b6ec28b9c179c80831d56d11fc65064591424a120133d397b2ab49"
+preserve = true
 
 [[files]]
 file = "config/etf_warnings.json"
 hash = "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
+preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
 hash = "b02d6120615dd4d1bed180592344f6d851c52c17ddc7068d06082808581b48d0"
+preserve = true
 
 [[files]]
 file = "config/fallingleaves-client.toml"
 hash = "f42d9c8ad7daebca0b534e440f2863aabe554d498cb8dbb0c74212db6fdeb313"
+preserve = true
 
 [[files]]
 file = "config/fallingtrees/client.json"
 hash = "32250607fd16180bc354ee685dbd5739aecbc86a30872fc29cd36ac43ac2d4a5"
+preserve = true
 
 [[files]]
 file = "config/fallingtrees/common.json"
 hash = "649e02ba14da1519b6abbcf7a65ffd231360fe94c0dca8953cbf3e394bc7bf5b"
+preserve = true
 
 [[files]]
 file = "config/farmersdelight-client.toml"
 hash = "a8cdc0376674d522d92d977cac5800d00c6f70ea62ea83dea59595fb232b8e3e"
+preserve = true
 
 [[files]]
 file = "config/farmersdelight-common.toml"
 hash = "0cc639f1ce8ab5e63f754ab41be3ab09398fd149de6d0b5edc476034e3ed8b06"
+preserve = true
 
 [[files]]
 file = "config/fastbench.cfg"
 hash = "b9f2753df740086016ae47d0f9b69521b1233546fd564bf2797ed93fd5c60efb"
+preserve = true
 
 [[files]]
 file = "config/fastquit.toml"
 hash = "e85f39867513fe26179ba3cf7a00d343e9642ceaa96e7ea3cde6a1c3aa69dd4e"
+preserve = true
 
 [[files]]
 file = "config/fastsuite.cfg"
 hash = "44198ad591572d87a9f71b0b636229d91508a8c971f9dca907bed3c6d6754193"
+preserve = true
 
 [[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "1356f9d52b2dcb2afa5a593e53c286d9c1c3778a6f8b1cf761953b185b7dce78"
+preserve = true
 
 [[files]]
 file = "config/fishingreal-common.toml"
 hash = "82d78d8288317dfdcb3a90220e1bb410874dd368e90f272fad7ef139166e352c"
+preserve = true
 
 [[files]]
 file = "config/flywheel-client.toml"
 hash = "4f60afafe27bd7e7098605e5468e89a651b89ffeda1698a06f81bd7161cef767"
+preserve = true
 
 [[files]]
 file = "config/fml.toml"
 hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
+preserve = true
 
 [[files]]
 file = "config/fzzy_config/keybinds.toml"
 hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
+preserve = true
 
 [[files]]
 file = "config/horseman-client.toml"
 hash = "7f0ed7c16f3403958ceb089b233a8add81581c65fe033b26d8d012bb176d374e"
+preserve = true
 
 [[files]]
 file = "config/horseman-common.toml"
 hash = "416edc95699d475b533e25ccd80d0a3e7587a0e30c7b8ca2b6ba1111afe83b8d"
+preserve = true
 
 [[files]]
 file = "config/immediatelyfast.json"
 hash = "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a"
+preserve = true
 
 [[files]]
 file = "config/invmove.json"
 hash = "b4306cfc19619ad78fad885566aabd12e642956c1bd8a11b533b5f37cd451621"
+preserve = true
 
 [[files]]
 file = "config/invmove/unrecognized.json"
 hash = "927a721071f54e362192c30b822ad4dc453f0181a734ac106eb3d59b1d75c09d"
+preserve = true
 
 [[files]]
 file = "config/invmove/vanilla.json"
 hash = "d1151ee0b7aa54a262ade99ba45014b32bf8774a90040f0b65c733d9ab9e2258"
+preserve = true
 
 [[files]]
 file = "config/iris-excluded.json"
 hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
+preserve = true
 
 [[files]]
 file = "config/iris.properties"
 hash = "8c991ef3f93e6fcb76d6d5e88fee5b9ba36bc0115965c0b37390bdeabbcee080"
+preserve = true
 
 [[files]]
 file = "config/iteminteractions-client.toml"
 hash = "4f0a6f90652668b77a29f2629150f67d155ad3a65d7e344046b3494f6cd191a2"
+preserve = true
 
 [[files]]
 file = "config/jade/hide-blocks.json"
 hash = "309df4ae96864c19eae41b646d58497c85a73b1fc3c584e772ef4d5822794baa"
+preserve = true
 
 [[files]]
 file = "config/jade/hide-entities.json"
 hash = "3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709"
+preserve = true
 
 [[files]]
 file = "config/jade/jade.json"
 hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
+preserve = true
 
 [[files]]
 file = "config/jade/plugins.json"
 hash = "79ff97d93fa304a73f3159c5b7d2ae1a830a65567437eff353ace9b4cbd89b8b"
+preserve = true
 
 [[files]]
 file = "config/jade/sort-order.json"
 hash = "b10ecdfa4d7b1889b71ff188d5d169c48c85e9df91716760e7190b28d4f102b2"
+preserve = true
 
 [[files]]
 file = "config/jamlib/known_suspicious_jars.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+preserve = true
 
 [[files]]
 file = "config/konkrete/locals/de_de.local"
 hash = "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef"
+preserve = true
 
 [[files]]
 file = "config/konkrete/locals/en_us.local"
 hash = "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a"
+preserve = true
 
 [[files]]
 file = "config/konkrete/locals/pl_pl.local"
 hash = "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8"
+preserve = true
 
 [[files]]
 file = "config/konkrete/locals/pt_br.local"
 hash = "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c"
+preserve = true
 
 [[files]]
 file = "config/lambdabettergrass.toml"
 hash = "71f8657fa67d9b11264366d2e8726098d6d86887e63f14e2cbce82532a2f84be"
+preserve = true
 
 [[files]]
 file = "config/lootr-client.toml"
 hash = "4da5bc00c2cc7db774e16f6905929303bfca802367d49133ba9742a6330238ad"
+preserve = true
 
 [[files]]
 file = "config/lootr-common.toml"
 hash = "46f41bc157ac77f9a96b4a89a7652668cf910885e4fe868d46b42221377d4d35"
+preserve = true
 
 [[files]]
 file = "config/midnightlib.json"
 hash = "b14c45c6447f9ee5474d70784a2ef96731abbeca1e92485b7599e76e9dce1444"
+preserve = true
 
 [[files]]
 file = "config/mod_menu-client.toml"
 hash = "dcb7485056dddf85c3ae71290e2e7a29d1983a2aad23ba66c5099fba38da6379"
+preserve = true
 
 [[files]]
 file = "config/modernfix-common.toml"
 hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
+preserve = true
 
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "cda1de84880f439d9c8a025861a483d51972e76b8a5a6a253dd0196aec821ac5"
+preserve = true
 
 [[files]]
 file = "config/moreculling.toml"
 hash = "db63bd41fae1b92828f13b34b93215549ca167ccf44a4c09d050fe559fa203a5"
+preserve = true
 
 [[files]]
 file = "config/music_and_melody/client.json5"
 hash = "72e10e2fb9f943a9011e3b41c5f30931da9a759d8a948ed60c7224d3d326a2ab"
+preserve = true
 
 [[files]]
 file = "config/music_and_melody/data.json5"
 hash = "2d8c3986da17f003672086c6fe06687e94affab9a35bf059ab1246e18e8d37da"
+preserve = true
 
 [[files]]
 file = "config/music_and_melody/server.json5"
 hash = "bcf9da162408507712b0350d7935aced7130b7c69530a0c14a75b59c2ea46f64"
+preserve = true
 
 [[files]]
 file = "config/neoforge-client.toml"
 hash = "d58d93e2c429410d0abf25507d1679f732e1023b03bb52414348efcf5cf3ddb0"
+preserve = true
 
 [[files]]
 file = "config/neoforge-common.toml"
 hash = "fe878a2717a145cd890621eac5b3be1e1fd656f7ff9abc6e8d53f670d37474c4"
+preserve = true
 
 [[files]]
 file = "config/notenoughanimations.json"
 hash = "6113e4cef59566ee91ff01895e48c7792d463f376aea3eb16644333a96061a90"
+preserve = true
 
 [[files]]
 file = "config/particle_core_config.toml"
 hash = "9f21aae26ba31a4fd9bab85c4bb4e37d10ac408aff9feed91ad6acdf1e269634"
+preserve = true
 
 [[files]]
 file = "config/particle_core_disabled_optimizations_v2.json"
 hash = "7189bb61c58cb1030b8ee486e66abf694d257192248b9b3ac4978df2b1366f7d"
+preserve = true
 
 [[files]]
 file = "config/particle_effects.json5"
 hash = "d8e4194f91f8f374d89cd84d06a68dd4e3bef91a655d18330acc99842157df21"
+preserve = true
 
 [[files]]
 file = "config/particlerain/config.json"
 hash = "e467bad5ddd60ec1f2deee790243ea6a08712d365da472cf46542c8adba84d38"
+preserve = true
 
 [[files]]
 file = "config/placebo.cfg"
 hash = "eb7e9906d126543f03c2257ca98efa4b845d1e7479dc8b069a12b194c86debcf"
+preserve = true
 
 [[files]]
 file = "config/planeadvancements.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+preserve = true
 
 [[files]]
 file = "config/ponder-client.toml"
 hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
+preserve = true
 
 [[files]]
 file = "config/presencefootsteps/userconfig.json"
 hash = "774274e780bee5bf90b8114e59429b5b3a26222b4dca7d8df8b1dd438b33a003"
+preserve = true
 
 [[files]]
 file = "config/punchy/merged_animation_selection.json"
 hash = "77d9559a19f69d73f952177d2047760a9e55be219fee015658effaaa8783eb46"
+preserve = true
 
 [[files]]
 file = "config/punchy/punchy_config.json"
 hash = "587b63710d6d1ca075116181d5d7ab87613de2366a2513ede23f228b997c0e95"
+preserve = true
 
 [[files]]
 file = "config/punchy/triggerable-keybindings.json"
 hash = "9148991f4ec6e759cf2b45ea60f02650959b8a3f6ed5b16522ed5ed63cfcf3ea"
+preserve = true
 
 [[files]]
 file = "config/rightclickharvest.json5"
 hash = "6eb5169563472ae96184c94e9f42ff7d76fdba403ed3190ffb308e817ea0a21e"
+preserve = true
 
 [[files]]
 file = "config/rusticdelight-common.toml"
 hash = "bd047a44a6aef4e0136743da0b691a4855c69b04164a6ab790505c158342022d"
+preserve = true
 
 [[files]]
 file = "config/sable-client.toml"
 hash = "5f816a5d7d32cc56ff3f26e3adbb25c6bfea6d81aba088cca9e00d42d73753e4"
+preserve = true
 
 [[files]]
 file = "config/sable-common.toml"
 hash = "43d5cdfc1997a8aaabfc301e746b773319999d348661a1a7a04b37a70fda93c1"
+preserve = true
 
 [[files]]
 file = "config/simulated-client.toml"
 hash = "aaeeaedb8179a8e2404a468c0b62fee76dd5becb6c87d870f206733e20009991"
+preserve = true
 
 [[files]]
 file = "config/skinlayers.json"
 hash = "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166"
+preserve = true
 
 [[files]]
 file = "config/smooth_steps.json"
 hash = "97fc2da0e430b871d4f86cae8e0e8e274eeb99d38cd679496480cc1410d0ac55"
+preserve = true
 
 [[files]]
 file = "config/sodium-fingerprint.json"
 hash = "bb7d2186a9f894493e0e3727a96e602dad61ae7c1bc24807c418f4f0168cdebf"
+preserve = true
 
 [[files]]
 file = "config/sodium-mixins.properties"
 hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
+preserve = true
 
 [[files]]
 file = "config/sodium-options.json"
 hash = "44478bef0973f1aa587c0493568a5cbc5426233b611f14bd2be489b5b862fa7f"
+preserve = true
 
 [[files]]
 file = "config/sodiumdynamiclights-client.toml"
 hash = "d8ebc5a26f6f4fc0d27c3746a3aa6ec8d2652873bd3cec6f254be1628f0472f7"
+preserve = true
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
 hash = "390cb983090cdc5ba9013c0551fcde8ecf579040f970e33de5ecfc500841cb7f"
+preserve = true
 
 [[files]]
 file = "config/sophisticatedcore-client.toml"
 hash = "12f65a872b73c931b0a192d7e95c7d89f7ef7f1fd33f3ee7ff6bbda12fb8845f"
+preserve = true
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
 hash = "6928810eacfc20c8568759fc8c142df5f643e790f5c97c082719d65656274ff8"
+preserve = true
 
 [[files]]
 file = "config/sound_physics_remastered/allowed_sounds.properties"
 hash = "a4243315d3380fcd94da3cb234c9c1d1a7bd52656cf43f17637fe41b62f2a16a"
+preserve = true
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
 hash = "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb"
+preserve = true
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
 hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
+preserve = true
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
 hash = "068ccd6b0985f7ba643fb7ccd6e8149378b4679891a90aa2c787f8ba278330c6"
+preserve = true
 
 [[files]]
 file = "config/sounds/event.json"
 hash = "6245d6fd01be9aac33c2c7967fb795b8542a21526623ffc19a85596b3a6e1d1f"
+preserve = true
 
 [[files]]
 file = "config/sounds/mod_utils.json"
 hash = "ad4c5fe9811db5595602b39957453cf553ca0ccf0c084db6393caa2f2fa05132"
+preserve = true
 
 [[files]]
 file = "config/sounds/ui.json"
 hash = "ad2d93625c17340af17d4f8160853cb2a8db338ebc5e8989c574798039379f56"
+preserve = true
 
 [[files]]
 file = "config/sounds/world.json"
 hash = "f8f1818ba5c8887bd01973839f9a413c1232cc1a1c4be7e5c72250ff2af042e7"
+preserve = true
 
 [[files]]
 file = "config/stardew_fishing-client.toml"
 hash = "b83324765091de4f0e6f04b3b0f674c5862439dc0b32751be13386705d2f4d1a"
+preserve = true
 
 [[files]]
 file = "config/status-effect-bars.json"
 hash = "9d6b9cee844e073d40de18fdfb268c267978a3cb0e64f1d1f17f79e6bf688a70"
+preserve = true
 
 [[files]]
 file = "config/storagedrawers-client.toml"
 hash = "ecc9c067701d3fa9a12f95e0a88ba061d7c0fead8eb3a720eccc873086a80ed1"
+preserve = true
 
 [[files]]
 file = "config/storagedrawers-common.v2.toml"
 hash = "e318504bc6a17e764793e4542f415812f5ba99bd1954b423c3d0e0dfc9c35f4b"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing-client.toml"
 hash = "222ca20f214d032e45c5db5408667974102cd17ae109d130b37d4921348cdca4"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing-common.toml"
 hash = "825e0378ec69f76344da5a651a48144824c25fd28c4d72b1392b0eacb2f4df9a"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_features/.withdrew_2_13_2"
 hash = "47b8a74a89873686ce4c3400289a2fe8cfc7ff7f1f7f25ef4fb781f101aaf9a2"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_features/GUIDE.md"
 hash = "230d57e340ca051cfc921b9358d1719634d4f2dd8a60026669a96dd7f5b12c4d"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_features/README.md"
 hash = "f68bba070d8711a24790c2bd41c0288e2e7af3267d14dbb1aa0391d0635aac3a"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_features/examples/example.json"
 hash = "e9afd621ecc1dd51c5c233446a605bbfa37b69661d3524f0032c3c039d5f19e2"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/GUIDE.md"
 hash = "230d57e340ca051cfc921b9358d1719634d4f2dd8a60026669a96dd7f5b12c4d"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/README.md"
 hash = "43a33749d3a1ca98b12654501a84832e6d007e1e71c891988f8990c9d967541f"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/badlands.json"
 hash = "cf416c37142d08d57d4d4d63b92da99a69d8c3cee1d4e035043097b9a9c04165"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/beach.json"
 hash = "81de3d814269a7a6072bba1a7a0c520f4c257273ffa7dbd3c987df6d495b9053"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/cherry_grove.json"
 hash = "38c9cdd80539396311cf5dee90fe0d2728c646cd3a101d65fb6f9e0943a1cdac"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/climate_dry.json"
 hash = "5ecc12c2a4f3aaabf91a3c20fc311e97c46c7797ed3f0399b2e577ccb2040ce2"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/climate_sandy.json"
 hash = "dbe6517893a3095253c9b75f347ad264820ae5db77d1f01d21a44f79a5bc4c83"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/climate_snowy.json"
 hash = "435300ab6bae0a29c8eef265fa84938e23db5bfed87f6d8daeaa6d05c96b8b66"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/climate_wet.json"
 hash = "1aaca990cdb7e1e8b7200e5da817a54e41b8d2b428d6e437b3cccf363f5c62da"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/dark_forest.json"
 hash = "6aa4be09a555f889a3691cbc620819d80f76c63f0ae616c96a737c4ea07f082c"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/deciduous.json"
 hash = "7586ab7ae7b2f1e44d53bd42218131dbe7de0b40cf294f9a2cbae6b52aa869a2"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/default.json"
 hash = "c8b32a341ff9e602cd320f8346f9096471a25910246ec0397da9884f2377d45e"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/desert.json"
 hash = "885232c4242b7520fe720116bc4cec06d091533ed8096d892517c9ad167cd457"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/forest.json"
 hash = "453bcf8cb03166fa341df9b9e5f97abe3ed50ce0bccd9b9ae47d4efdcdd6001e"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/frozen_river.json"
 hash = "2a3e80cf0eb45f490f6880cbc9b32275f1f7b29ddef7590954a92de9b508e96d"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/jungle.json"
 hash = "4fb6d1f316fb065e42519372bafc800b1015bbae0a85966a31e40a21ccff3f50"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/mangrove_swamp.json"
 hash = "1f3ae5d4a1a5d8bd40c2c133f02206efaa39d234861fef78016f25af62d8c09f"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/meadow.json"
 hash = "82143027faa1e4615f68f1c7c99c5d28f081d00a352bf1c3159ddd22bf6ee3ec"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/mushroom_fields.json"
 hash = "00ae5545f40520204aa101d7c93a87eb8f62edaa3310ea08a20442c505f2061c"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/ocean.json"
 hash = "0f1e506ecab00d8ae9a28046033c68addaac196f9d40556502c814ff1584b172"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/ocean_c.json"
 hash = "9adf186bfb720677382712aecf120c40f88a91169dd097b92e33db191df40632"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/ocean_cold.json"
 hash = "87ffd68832a3aae8554e84e73031ea4acb5c6f14ec8bc379775ffa855a67b354"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/ocean_deep.json"
 hash = "5338c3395552f3a3ca910ca049cf6907d47cf049edbfa8c0b9628d0e914fd7da"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/ocean_frozen.json"
 hash = "16075777cef4ae68bc119a33b38317c4127c6db3e7a675fb4e5cb7d2e94f6b2c"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/ocean_warm.json"
 hash = "b5823f99d47b45e8af5d8949c3f5e6afa37fa1971217a207d31766a83023db5b"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/plains.json"
 hash = "95ff0b7537d0a59ce747a4cfde20a5d7895c7d82d4a183db84efd50d1186ec41"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/plains_c.json"
 hash = "cc0c26bdd736251344e793bd1cd61a6818c8a3789b24f999f66d10b99f0614a0"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/river.json"
 hash = "4292413150f2cb5cbf72fa5b3b395cb7703d116b9e6c45bab279bf3123bc854a"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/river_c.json"
 hash = "a22cc00d439d33531345ef57a0ff0e3ee4cc7eae00cccd35da4ac81e120e93bb"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/savanna.json"
 hash = "3a85d05bee640c6a791d1e2d49760e122e1c75bd85b4c6f956cd0a5953ae8979"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/snowy.json"
 hash = "77027c19c3fece65aa613f209f0b213ee8907b7fec614a039ee805d08d068a91"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/snowy_beach.json"
 hash = "ba68c481b140f8e523ef1e002b0e783546e6a62e530ba496ca26b128b4748552"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/stony_peaks.json"
 hash = "4eb44ae700953010f4b40dafaeb1b1c2157f7b385fc1f6464224af6947fffdb9"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/stony_shore.json"
 hash = "668032e20d6641256283e0f71ffdb6e0c0fcc6e25721b2bb5227e301a0a124c0"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/swamp.json"
 hash = "d43bab09a04d62cdd4e6b5396ffefb512b41fca226ba4ed3c82870476f35a5a1"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/taiga.json"
 hash = "6252bcb22f44506cc59af9ea6ec3906f989c2f4ff76549ee2d6712074973bb79"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/taiga_c.json"
 hash = "21cd3a5bb2cc97e0075977f500c90eee375534b07e69b8da56cdc92dfe38782c"
+preserve = true
 
 [[files]]
 file = "config/streamsreflowing/bank_styles/examples/windswept.json"
 hash = "49da707c1a61e1bd6ae5313f0db512fcb4dc4c88c2a855a43c5a72f85d157110"
+preserve = true
 
 [[files]]
 file = "config/submarine_hull.json"
 hash = "3bf230abecc3a3111f698c0a244d9cb1d3e606fb9de6acc516a40c68fee2a0c5"
+preserve = true
 
 [[files]]
 file = "config/subtle_effects/blocks.toml"
 hash = "0ee1efbbd94b6bcd0e89fbea90c29947fb7039004741af951bf40594f8649e3d"
+preserve = true
 
 [[files]]
 file = "config/subtle_effects/entities.toml"
 hash = "3e9788b1039b29c004d3b9b67b36213cdab0dbc8bb6a00952a9c8bcb8eef42ec"
+preserve = true
 
 [[files]]
 file = "config/subtle_effects/environment.toml"
 hash = "55508eb928834d52f9f6ef564f0e927b562b6c7965c17779af07545a94f33174"
+preserve = true
 
 [[files]]
 file = "config/subtle_effects/general.toml"
 hash = "960fa7522336f41cd9a56970c4a24a123511b0ec61426ee5128306d273351974"
+preserve = true
 
 [[files]]
 file = "config/subtle_effects/items.toml"
 hash = "0955be893f8ba0a742ad4966dbe21e794e69c7b4235b63923dc9839865effdab"
+preserve = true
 
 [[files]]
 file = "config/toms_storage-common.toml"
 hash = "a7ff87dbfa4587eda3e1aa9f8e05102bdf0e6f7961fde07a360e86c6cd69da1f"
+preserve = true
 
 [[files]]
 file = "config/transition.json"
 hash = "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c"
+preserve = true
 
 [[files]]
 file = "config/trender.json"
 hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
+preserve = true
 
 [[files]]
 file = "config/voxyworldgenv2.json"
 hash = "7c8b8b4f1fa12fba7bc27f073e7bfa3ccbe7dbf1f85a38c977c78e88a10f8d60"
+preserve = true
 
 [[files]]
 file = "config/whitenoise-client.toml"
 hash = "00c6e34f0adbb41db954d296fd7c55dc3412463a38038dc836626433dd7f6d92"
+preserve = true
 
 [[files]]
 file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
+preserve = true
 
 [[files]]
 file = "kubejs/README.txt"
