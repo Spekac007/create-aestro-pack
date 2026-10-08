@@ -63,6 +63,8 @@ update.bat "Update modov"
 
 Configy daj do `config\` v tomto priečinku (rovnaká štruktúra ako `minecraft\config` v inštancii) a spusti `update.bat "Configy"`.
 
+`config\sounds\chat.json` (je v ňom tvoje meno) a `kubejs\config\web_server.json` (súkromný token) sa zámerne nenahrávajú, sú v `.gitignore` aj `.packwizignore`.
+
 ### Ako vyskúšať zmeny pred pushnutím
 
 ```

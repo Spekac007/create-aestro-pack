@@ -4,3 +4,7 @@ packwiz.exe
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# Osobne/per-hrac configy (meno hraca, lokalny auth token)
+config/sounds/chat.json
+kubejs/config/web_server.json
