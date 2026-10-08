@@ -43,6 +43,9 @@ jobs:
         # -y prijme aj závislosti (dependencies)
         run: packwiz -y "$ZDROJ" add "$MOD"
 
+      - name: Kontrola resource packov
+        run: python3 .github/scripts/kontrola_resourcepackov.py
+
       - name: Obnoviť index
         shell: pwsh
         run: |

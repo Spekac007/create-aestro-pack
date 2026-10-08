@@ -1,0 +1,85 @@
+name: Aktualizovať módy
+run-name: "Aktualizovať: ${{ inputs.mod != '' && inputs.mod || 'všetky' }}${{ inputs.len_ukazat && ' (len náhľad)' || '' }}"
+
+on:
+  workflow_dispatch:
+    inputs:
+      mod:
+        description: "Názov módu (napr. sodium). Prázdne = všetky módy."
+        required: false
+        type: string
+        default: ""
+      len_ukazat:
+        description: "Len ukázať, čo by sa aktualizovalo (nič neuloží)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: pack
+  cancel-in-progress: false
+
+jobs:
+  aktualizovat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+          cache: false
+
+      - name: Nainštalovať packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Aktualizovať
+        env:
+          MOD: ${{ inputs.mod }}
+        # Pripnuté (packwiz pin) súbory sa preskočia
+        run: |
+          if [ -z "$MOD" ]; then
+            packwiz -y update --all
+          elif ! packwiz -y update "$MOD"; then
+            echo "::error::Mód '$MOD' v packu nie je. Názov je meno súboru .pw.toml bez prípony, zoznam je v logu nižšie."
+            for d in mods resourcepacks shaderpacks; do [ -d "$d" ] && ls "$d" | sed -n 's/\.pw\.toml$//p'; done
+            exit 1
+          fi
+
+      - name: Kontrola resource packov
+        run: python3 .github/scripts/kontrola_resourcepackov.py
+
+      - name: Obnoviť index
+        shell: pwsh
+        run: |
+          packwiz refresh
+          ./preserve-configs.ps1
+          packwiz refresh
+
+      - name: Zhrnutie
+        id: zhrnutie
+        run: python3 .github/scripts/zhrnutie_zmien.py
+
+      - name: Uložiť zmenu
+        if: ${{ !inputs.len_ukazat && steps.zhrnutie.outputs.pocet != '0' }}
+        env:
+          MOD: ${{ inputs.mod }}
+          POCET: ${{ steps.zhrnutie.outputs.pocet }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Aktualizovane mody: ${MOD:-vsetky} ($POCET) cez GitHub"
+          git push
+
+      - name: Obnoviť GitHub Pages
+        if: ${{ !inputs.len_ukazat && steps.zhrnutie.outputs.pocet != '0' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" --silent || echo "::warning::Pages build sa nepodarilo vyžiadať, obnoví sa sám."
+
+      - name: Náhľad
+        if: ${{ inputs.len_ukazat }}
+        run: echo "### Len náhľad, nič sa neuložilo" >> "$GITHUB_STEP_SUMMARY"
