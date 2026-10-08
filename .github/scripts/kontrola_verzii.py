@@ -14,10 +14,31 @@ from pathlib import Path
 UA = {"User-Agent": "Spekac007/create-aestro-pack (GitHub Actions)"}
 # verziu Minecraftu (1.21, 1.21.1, mc1.21.1) z cisla verzie vyhodime, aby neplietla porovnanie
 MC_RE = re.compile(r"(?<![\d.])(?:mc)?1\.21(?:\.\d+)?(?!\d)", re.I)
+PRE_RE = re.compile(r"(?<![a-z])(?:alpha|beta|pre|rc)", re.I)
 
 
-def vtuple(s):
-    return tuple(int(x) for x in re.findall(r"\d+", MC_RE.sub(" ", s)))
+def vkey(s):
+    """(hlavne cisla, cisla predbeznej verzie, je predbezna) - napr. 4.0.1 vs 4-beta.11"""
+    s = MC_RE.sub(" ", s)
+    m = PRE_RE.search(s)
+    core_s, pre_s = (s[:m.start()], s[m.start():]) if m else (s, "")
+    return ([int(x) for x in re.findall(r"\d+", core_s)],
+            [int(x) for x in re.findall(r"\d+", pre_s)], bool(m))
+
+
+def compare(a, b):
+    """-1 ak a < b, 0 ak rovnake, 1 ak a > b"""
+    ca, pa, ia = vkey(a)
+    cb, pb, ib = vkey(b)
+    n = max(len(ca), len(cb))
+    ca, cb = ca + [0] * (n - len(ca)), cb + [0] * (n - len(cb))
+    if ca != cb:
+        return -1 if ca < cb else 1
+    if ia != ib:
+        return -1 if ia else 1  # beta/rc je pred plnou verziou
+    if pa != pb:
+        return -1 if pa < pb else 1
+    return 0
 
 
 def head_toml(path):
@@ -53,13 +74,13 @@ if pairs:
 skipped, hints = [], []
 for path, name, old_id, new_id in pairs:
     ov, nv = info.get(old_id, ""), info.get(new_id, "")
-    to, tn = vtuple(ov), vtuple(nv)
-    if not to or not tn:
+    co, cn = vkey(ov)[0], vkey(nv)[0]
+    if not co or not cn:
         continue
-    if tn < to:
+    if compare(nv, ov) < 0:
         subprocess.run(["git", "checkout", "HEAD", "--", path], check=True)
         skipped.append(f"- ⏸️ **{name}**: ponúkaná verzia `{nv}` je staršia ako súčasná `{ov}`, preskočené")
-    elif tn[0] != to[0]:
+    elif cn[0] != co[0]:
         hints.append(f"- ⚠️ **{name}**: `{ov}` → `{nv}` (veľká zmena verzie, vyskúšaj hru!)")
 
 text = ""

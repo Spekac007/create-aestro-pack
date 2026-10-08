@@ -49,11 +49,11 @@ jobs:
             exit 1
           fi
 
-      - name: Kontrola verzií
-        run: python3 .github/scripts/kontrola_verzii.py
-
       - name: Kontrola resource packov
         run: python3 .github/scripts/kontrola_resourcepackov.py
+
+      - name: Kontrola verzií
+        run: python3 .github/scripts/kontrola_verzii.py
 
       - name: Obnoviť index
         shell: pwsh
