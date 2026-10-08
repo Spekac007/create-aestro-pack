@@ -749,8 +749,480 @@ file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/asylum_seeker.png"
+hash = "3c3fc418eef592717d2b165b88aee0e7e3ce0cd9428fd873f99e1decd45eb152"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/benzene.png"
+hash = "78496600e5a1a13aef7b2bd4c256f4c91fa2cd7b3ec82e608cf0d6871455d6f0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_heart.png"
+hash = "d6ab188124999416d9702720cd261985a427d3220e260bcc84f0207b6f63778d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/divine_favour.png"
+hash = "591c0ab0e1b736cdad17b3e1c7a3d70a6be15d22b4146a67e3886a42c5c0db93"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/divine_fragment.png"
+hash = "02a6c5a444c664cb66ef144b944213c57ee69c12cd275feb3e579616cd2d7138"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/dry_grass.png"
+hash = "ee042cad0093da78af40bda8b9474bc4e0b32e09016fb8d530466c91d6a66d30"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/elder_guardian_eye.png"
+hash = "a8a5dd4dc3ddaf0a94f08138e7423164b4d386857b94550cd79194c171d8751e"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tall_dry_grass.png"
+hash = "4878e432a48adf8a0652fcfaaf60a2a5906cb6079f73a1ff561e4a9d1834ca84"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/warden_heart.png"
+hash = "8322c0eb341a44918b7f1138f5204b75c5b364825a849a16c44df27384d3fef0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/wither_heart.png"
+hash = "48ab66d2f2acb8d6248967dbcecb93a82a2f9fd0290df37a4806a89919f31339"
+
+[[files]]
+file = "kubejs/assets/minecraft/font/custom_emojis.png"
+hash = "b89ef800232663bc03180b594749e1993a88db4ec76582da655f6023ee26df93"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/furnace_bottom.png"
+hash = "ac5567ce3020a6a187a83787116d6e608c8562d95c54442378deb4e37699a045"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/furnace_front.png"
+hash = "3ddd327ce02a2c552da07e572642dee5d8e2855fd80b14ecc7f7c0feed1d5cbd"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/furnace_front_on.png"
+hash = "0ddee2043d2ea733ae097a6e5fbee572a80357c479d89e30cf73ee6e76680f93"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/furnace_front_on.png.mcmeta"
+hash = "c44fcd990ddd39a46067f8a8fa3b447bca1a5136e1ff6101ca96b58e73539ed6"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/furnace_side.png"
+hash = "3b55b37db79300a45d34a6c3e862445f72dadeb41b9c4a5d95d8c5530de519e6"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/furnace_top.png"
+hash = "09341f3e2c64531808e948b9cb1e5dfe9ce1f41a0d6ad6cc454c493ced218a11"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/netherite_block.png"
+hash = "cf912696ea04986366b53033b44143a9d44312e1e917fea5d10c453fc23ff682"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/black.png"
+hash = "6724b3b590b612c3ad61cd21a19ae85d9406e2510b03c7eb748e8c3ce96aa043"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/blue.png"
+hash = "9e271b84a2a541132f91198464e230adfdf3e2d8d8d27b6bc7f91fe1f3195d90"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/brown.png"
+hash = "f6c0e848424fef508f50652a891b607a68d20b1bfe9f8965237777913c13317f"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/cyan.png"
+hash = "854c60adf39700d0b8b5f8027b35665207e39d19796677b669e01f35858ffc96"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/gray.png"
+hash = "e774280f2c7d8710856baae9f7cb6d2b625272effd5598a0d8e5c1b705d8b296"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/green.png"
+hash = "ae790a48856b6e11cb5d5e0375283dd3c3e391b5549a98f6b9a13527e28f8785"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/light_blue.png"
+hash = "da1ae9e12f6633358ca19b8afb84a2971f4d6eb78eb8622ee8c74ad49b2a696f"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/light_gray.png"
+hash = "95a5c0c8f6897795c97efebade57fa118a0e7999e550f4b41bd412236f498e1d"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/lime.png"
+hash = "622142044560b9666f6ffac0df3d5929e3019d92888f39dbd779d831ccdccf0a"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/magenta.png"
+hash = "7c6f817de948e89fd8a520c3d09ea14192a5becf0a5e04452353af464bb418b9"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/orange.png"
+hash = "607cf74dd6f63106de7b4e556618da17d300a0f3e94da4e92c6f2b3fb1609296"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/pink.png"
+hash = "a2781b78eac469c4856e38bed7243305dc5ac00711ce64437c1cfcd588ffae6a"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/purple.png"
+hash = "1f480318ef0c68bc33fef72025d292c89b3b886657efe16f33dc14e447aeb190"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/red.png"
+hash = "2a5f33a1a04ad1c48ae4cc1737e81abdbd7f9082505737b213acd055b997c004"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/white.png"
+hash = "9214ef6202275ccd6eb8eb379f04707a4cc7f84adc823f69089189ce66bcdd78"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/bed/yellow.png"
+hash = "2f4c5a05a7f6c5b006d65c62c968fe2b6149409d74b6e5871fff112f21a3f4e3"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/creeper/creeper.png"
+hash = "2c8b1e86997815aca4d65bc0ce1dd1941ac3293e2cf2b5b7b54bf0370b87fc23"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/angler_pottery_pattern.png"
+hash = "f6b263cb554c70d5f74419ae29896574d87a80ae264d27afeef719c309e38c99"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/archer_pottery_pattern.png"
+hash = "e642894b45f0e81f8eae5ac6aa54feea1de7c8896a2654d487aa1d98f72a252e"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/arms_up_pottery_pattern.png"
+hash = "0d7c8af1f3cd902be8a22e1c94b41785342f648a98cd992f229934e8e52c283c"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/blade_pottery_pattern.png"
+hash = "9b31552e6e44170969e5df120a8314ea03971a564b5f6e58c093678128f215b3"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/brewer_pottery_pattern.png"
+hash = "b7e80c6a00dfe8aa283e57e00612267b8e5ee266575a3d302d3523645b43710c"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/burn_pottery_pattern.png"
+hash = "2ca1680e5620d336978ed40a1e49dcb256a6e3c138bfaf1f4384f3617e5ca955"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/danger_pottery_pattern.png"
+hash = "57274726b0c5e45c1dde1362196f26f9f5d3481ae81896f2e74471c5369e015b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/decorated_pot_base.png"
+hash = "da9fd1b8b5cacd7b287c8a8d6d9bd0b39a9b494ed2e30edcd28326b854459b32"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/decorated_pot_side.png"
+hash = "404162f591f88e9614fa14589cb6c3f5ab7f5f0769314098a0ae712fceb73fd8"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/explorer_pottery_pattern.png"
+hash = "fcf9afa9fce0cd66df4fc27025e2827e953d8e49a570fb9778fdec8b6a53d80b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/flow_pottery_pattern.png"
+hash = "6bc7ffb393bb3d817e7ac150dd33f52b38adcea92ec5493d89df0f57fa3f4bf1"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/friend_pottery_pattern.png"
+hash = "392b31ece9a70df9ffb59d49ceb524a85435413b278d1d96287975ae49a14c56"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/guster_pottery_pattern.png"
+hash = "d49e96b4ff56a2b7f0c6fd22f893f1a7a8a07ebc11be2e360e7dd016589c24ef"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/heart_pottery_pattern.png"
+hash = "237b8c7c60fecc6ee0da381cf3420694f79677170340e4075a34209ccd32930c"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/heartbreak_pottery_pattern.png"
+hash = "2b34d1706de75e736fac033359e60a5b1eedc7640d5ed8546b5825f194dc4368"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/howl_pottery_pattern.png"
+hash = "3187c92642b2c9b318aaaca71300af3d6b0d5cf7ddadcc0f5eda29d5d89eab2f"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/miner_pottery_pattern.png"
+hash = "5ec49b0c34d1a8b736cd27da46d398d81a62a8884542a8ee1f4d3855930a5ffe"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/mourner_pottery_pattern.png"
+hash = "e1386f3a2fa58f22ebe008c4270620fa08e32df1351638520497d708815ff8f5"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/plenty_pottery_pattern.png"
+hash = "55fae7f46f3d855feb66bf96d55d8c5e945f10dc22ce9d6b29f8fd9ce5924918"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/prize_pottery_pattern.png"
+hash = "2b710ebff2ee981c25e378c5c445ee0702f8c3c1f1ff8d26de79a00246666a7e"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/scrape_pottery_pattern.png"
+hash = "0ae5037163c93c3a9239ba9314eb76a89f728c60eaed1ae52c5c51a3951bba97"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/sheaf_pottery_pattern.png"
+hash = "eff74f8cb82aeca108ba84554e06df7116d40ef855ddc6ff3062f10108e4100f"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/shelter_pottery_pattern.png"
+hash = "ee6ac3190b954753742e3d7d1503efcabc2dee588fe2af2a19617ae24fb01690"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/skull_pottery_pattern.png"
+hash = "ef488bd3104a5535d2cc2ad66b9ad02a0a541a984caa170fab0b7ab8d47785cc"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/decorated_pot/snort_pottery_pattern.png"
+hash = "76c4d7b7a031def601749b233edf6975f97c5a155d6cb1e4c9fea8a45c32a5a9"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/horse/horse_zombie.png"
+hash = "ca9d3d67aa0b9428ef472a0c91532e738fe87f64fef3441ecade696c08b5ae7c"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/horse/horse_zombie_baby.png"
+hash = "cf0304a801cbc5300908b47fa6a37f953a70bc5ce4d2b3a0f5fe36b973313eb0"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/projectiles/arrow.png"
+hash = "5b43d54464668b846cda5acf3fa02dcb53a9db03e489c565282ea340fdb17024"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/zombie/drowned.png"
+hash = "9e50001a64a65380e61a66fb470b5c9b9514c85fde1692575de99edd8e971669"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/zombie/drowned_baby.png"
+hash = "4837fb511dfa8fd6c628cb1e21d04951a017bcf0772f44c24a39ef3bbccbc753"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/zombie/drowned_outer_layer.png"
+hash = "c8c43a55f2172e9d7af6a3d1313988d5b6aaf40ce9a9fafd57c0c16138fed1eb"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/zombie/drowned_outer_layer_baby.png"
+hash = "587eef58fc3a27ad46a9d5e65f708cdad416e2436360f083c79b6b0f6e1d90a6"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/zombie/husk.png"
+hash = "26e75a79b7beacedb2d22ce2981f2ff074fc55c9782f79b4a819c9726ec10148"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/zombie/husk_baby.png"
+hash = "8030df8324d194cff5b1ba16224b6eecb264eeb9f4b4b0c48d30f6561e9df3ba"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/zombie/zombie.png"
+hash = "89602cc23f119ce7a5d2c79f879603f55fde184259ec500192d01332bfc0910b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/zombie/zombie_baby.png"
+hash = "4837fb511dfa8fd6c628cb1e21d04951a017bcf0772f44c24a39ef3bbccbc753"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/zombie_villager/zombie_villager.png"
+hash = "9d4a54fddc44f260e7a25e3bdb6d99dead1c2c0243c9d36d36d8bd7afb07dcdd"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/zombie_villager/zombie_villager_baby.png"
+hash = "3885ab062b9ade1a608b349d21216bb3c57989ca1f46ec2672725ea512847f48"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/environment/celestial/moon/_list.json"
+hash = "7117e3fc0ce72c9e744644fd75d5f8bebf87fab9b33fd26b90c563e10e84a65c"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/environment/celestial/moon/first_quarter.png"
+hash = "2cf4d98d30bc3face9b03565a6f3c238c4b0f431efdc532de158716d9e2c12cf"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/environment/celestial/moon/full_moon.png"
+hash = "0c55684c82a5be2c4376d7f5064dff694bc35ad7d2b293b6aafc6e2a65a557a5"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/environment/celestial/moon/new_moon.png"
+hash = "ae6462bc371a581a1abc4102a95e992228ca451ace10076eb53c45b772c31066"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/environment/celestial/moon/third_quarter.png"
+hash = "75d18b328f0da8470a25b3b0f1c1558ead371257a451fc8f4af22cf665ed58de"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/environment/celestial/moon/waning_crescent.png"
+hash = "ec7bccc3d229b90aedad5eb15894a89ca80c47de8c1fbdb3bfbd09624a52c458"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/environment/celestial/moon/waning_gibbous.png"
+hash = "85d578532082495e8c50ecd97a17359ddcdbf978dc5d2b183631cae7ca7d96fd"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/environment/celestial/moon/waxing_crescent.png"
+hash = "6afb8e89cb7dd8ae7dddcae175f01d8512a783c91f1c4b0afb25d259d5f153a1"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/environment/celestial/moon/waxing_gibbous.png"
+hash = "7d70735194b5f439310bc8a0c5fdd7560b043dc9ea6fe1c368cce2c93ddd36ed"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/environment/celestial/sun.png"
+hash = "f9c9bb59c8860a6d663d05b4c724589618d132a91fedf93302a2c92a7b0637c0"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/environment/rain.png"
+hash = "f8fd08198e337bebf660c4ee0529e307d9a5ee81f5b1559e21c6e64e3f72fe1a"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/beef.png"
+hash = "1d68cef13a056c72aa18195cb83fed65be20ea6c6ff1630e0ccac42072108a40"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/blaze_rod.png"
+hash = "c83bd9ba7aebfdebf97f9393bb54574439ce731d5ff6e6f4efff3484b66500fb"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/campfire.png"
+hash = "d6c73fa040b2021087bb9af7932ed55d9b781fd4a769c7d14c8a8fba0a85eeec"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/chainmail_boots.png"
+hash = "ec8de55067ad02a5fd06213d19cb5ab4c2f78982379bd6608c56b5cce5dce9aa"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/chainmail_chestplate.png"
+hash = "fede7c1a2475390ca23afce3ad20a7a8008d7c0a5aa1e32cde744a0c42eb8a75"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/chainmail_helmet.png"
+hash = "71a338903ac5e50527daf24fc41b3d60480d773c5213551e9deefcada442d4ea"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/chainmail_leggings.png"
+hash = "98096be03f3c21fead51d94a4c1696c8cde2da9ecebd11f5cd48a02136fd84fd"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/flint_and_steel.png"
+hash = "7f4271ddf488e38f420aeac281c1e3d398e972e538808085a714dd5ff205dcf9"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/glass_bottle.png"
+hash = "b6eacc719f498dec6703650c3f3d24e9f48b41529a68f44c4e2c0cd373521f14"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/honey_bottle.png"
+hash = "339a1f21cc6b04bde0f3f0fcd4501108e5a1b5e0ad0c57ad145ed983f155ddd1"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/leather.png"
+hash = "5889bcc5dd7592329c12cb4be9f2aab84375e823a4e5cda0dc8172aa0779e86f"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/netherite_axe.png"
+hash = "13b250088ab6ee03094a6caf1bc0934d83adade08f3597d91ac0a5a2d43b98b2"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/netherite_boots.png"
+hash = "a364f1ddeb89b977ad2b274c23704a45706d85e1c71d9fe3603e42018c239931"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/netherite_chestplate.png"
+hash = "85e9db315a1eed8e4f9d14d20edde5fbaf0626b22759b897a458c07c202310ae"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/netherite_helmet.png"
+hash = "c15f596e1062359441aad12dd1f4c4c301b1cf690130264f004601a5c0b26c8d"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/netherite_hoe.png"
+hash = "7c74eaa8fe46be6b483c94a7777e005b8a6c782e367054124287b25493694be7"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/netherite_ingot.png"
+hash = "e3c882785f2020daa418c6106b1879f58eee7486dfe7e59bdb37ded3fbd8b37e"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/netherite_leggings.png"
+hash = "f1837bb2eb2fd5a6bd2ede3b49469421c5a8fe2644f45ed2c21df9f4971ac13b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/netherite_pickaxe.png"
+hash = "7866f59575aa0546feefc28a54901be72729cc48cabe2ddee3090a7951910c94"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/netherite_shovel.png"
+hash = "f7e49ce7bbde2cdd02a957815272358e838d814e92b3e82caf6f30d9e36e83eb"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/netherite_sword.png"
+hash = "989bfd84c2e0cdfd7eabd6a0cdc3bff5f90be2aeb6c46a30f4860b1f9b33d5bb"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/netherite_upgrade_smithing_template.png"
+hash = "6e7bdfee22385fc079b325cc199ba7fc494d28650510f5b9313fb5736b6e328a"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/rabbit_hide.png"
+hash = "ae726b8f932ca8e4aaa0a748f54b45f77556b6c905aa93092b500dde50b6c1a9"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/soul_campfire.png"
+hash = "4fb6c5e999bab3ba026b70600ba548da53940f8c798b78a506b626f754ddc341"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/stone_axe.png"
+hash = "d8fef2f733f58e9cffdf7fbfabb51b15d4d9b6131b08e33db3e245c269cde133"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/stone_hoe.png"
+hash = "6987131962d588a946b8cdcedeaf8494fc48900218421a222880159148028582"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/stone_pickaxe.png"
+hash = "40d09e98401aec9c3e8113d1d378e50b7272fc09a8df452209ba9fecfb76791c"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/stone_shovel.png"
+hash = "533b9158ac4304895f62bdca9a3d7b6900f7b95f339884fdffc42c83f363b399"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/wooden_axe.png"
+hash = "ab441fee6aaa3c87c89e5f4b066d190194fabf2fcf5ec14de0f97c95230a1257"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/wooden_hoe.png"
+hash = "0822603e4f2502d2783218c8d293ac1b58f0203989ae782d9e27426e94313cd1"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/wooden_pickaxe.png"
+hash = "7148887dcffee52b6f4c399f1a0fbc401cd10d5e2bdf0897b66e0b959422d012"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/wooden_shovel.png"
+hash = "c9317a5af47913e21a7a31e55ef03858438ae6954f95305b3e0c6c67bd209551"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/models/armor/chainmail_layer_1.png"
+hash = "1ab6f7f3d87cc1ad183f08afe585a57cc81f0e9404e5593b43b4d622c7d8736b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/models/armor/chainmail_layer_2.png"
+hash = "b8a66b3d7f6a71dfc004a5cbc15aae844aa58715a366d42e21258db9315e040b"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
@@ -765,8 +1237,32 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/config/probe-settings.json"
+hash = "c9a779e18fc1eb6f708a7442e18b511f4c93475042813d8b59cc379678ffd12f"
+
+[[files]]
+file = "kubejs/package.json"
+hash = "3d04369a44dc75f6a70dfc51080beb357eb39b395a2db0b6557ce8b9900ceec4"
+
+[[files]]
+file = "kubejs/startup_scripts/food.js"
+hash = "dbe2199098b4355bb4d9a86d3191fc9fc67d4a6b04c347a4d96b5b5556f93cfa"
+
+[[files]]
+file = "kubejs/startup_scripts/jsconfig.json"
+hash = "9a75b8dd95ef5b2dd64998a78ef9c621b0d8e5578c9fd3e3bc268b1853258ca9"
+
+[[files]]
 file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+
+[[files]]
+file = "kubejs/startup_scripts/modification.js"
+hash = "a7db7476dca069d753c0613ad393b5b3f47a8098aa5b54c527c909eb4dd0e9c8"
+
+[[files]]
+file = "kubejs/startup_scripts/registry.js"
+hash = "2ce81a99b093b9d49a79177c57880adc74b4f1db67abb471cca85f6cf5ce7f08"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -1481,4 +1977,59 @@ metafile = true
 [[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "dde31f05114c72cb2f58e522417487730b872e456f77fdd02c032c9235791f6c"
+metafile = true
+
+[[files]]
+file = "resourcepacks/3d-ladders.pw.toml"
+hash = "ba290cbb8a4301a051f6a16f706c20964a7c6a195c2628e2d67b3440bdc95bed"
+metafile = true
+
+[[files]]
+file = "resourcepacks/better-3d-beds.pw.toml"
+hash = "6599b9caab9a6b740a6de555b1ff944517aa49ede50a46ae748c585778db7b80"
+metafile = true
+
+[[files]]
+file = "resourcepacks/better-leaves.pw.toml"
+hash = "c26f8da8b6f013fb7e917e29fc6ae783eb379c539da12d9d61196bc762fd26e1"
+metafile = true
+
+[[files]]
+file = "resourcepacks/enchant-icons-countxd.pw.toml"
+hash = "4bb8ca44a3571fed5b37220e96071527f81aa184ba0e2b26eaeaa1386f4545c1"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fa-player-extension.pw.toml"
+hash = "b10943dd0c7472c8782d27e1239a851dfa41ee21608dff9207b84c0a81b56e20"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fancy-crops.pw.toml"
+hash = "0cb5fc8c29fb99530cc20e013347558e198a686420aaf996fa03b9e23fa291dd"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations-extensions.pw.toml"
+hash = "9fd64cf209789e2451d0d7707a4b87fe0c787e74eb31ce79ed94f4a30849c05d"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "9dc9b1568b6eaa48e16455e2a119566aa0e1c0e6f3e71099b97c535a73d0cd84"
+metafile = true
+
+[[files]]
+file = "resourcepacks/low-on-fire.pw.toml"
+hash = "f5bafd1fbb787341af6c231f2a735ff3c44b3b1db076e297ecc5e323703cd7fb"
+metafile = true
+
+[[files]]
+file = "resourcepacks/os-colorful-grasses.pw.toml"
+hash = "6cae24b627f52843247c9ccc81f9a41c2b753df2427eae5a1764732f5870dc29"
+metafile = true
+
+[[files]]
+file = "resourcepacks/vvi.pw.toml"
+hash = "a073b5765abe8b28922b94675a4c83e05f7cf0e041fe1741c609cbb70169bedc"
 metafile = true

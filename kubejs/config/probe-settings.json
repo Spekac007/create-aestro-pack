@@ -1,0 +1,11 @@
+{
+    "probejs.newGame": false,
+    "probejs.hintsForLLM": true,
+    "probejs.fullScanMods": [
+        "minecraft",
+        "kubejs",
+        "farmersdelight",
+        "create",
+        "morejs"
+    ]
+}
