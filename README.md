@@ -77,7 +77,7 @@ update.bat "Update modov"
 ### Na čo si dať pozor
 
 - **Po každej zmene si hru spusti** a skontroluj, či sa načíta. Ak padá, mód odober a znova spusti `update.bat`.
-- **Nikdy nedávaj do packu `.jar` súbory ručne**, vždy cez `packwiz ... add`.
+- **Nikdy nedávaj do packu `.jar` súbory ručne** (ani cez web GitHubu), vždy cez `packwiz ... add` alebo Actions → **Pridať mód**.
 - **Resource packy Better 3D Beds a Os' Colorful Grasses sú pripnuté** (`packwiz pin`) na verzie, ktoré fungujú na 1.21.1. Neodopínaj ich. Modrinth pri nich tvrdí, že novšie verzie sú kompatibilné, ale nie sú.
 - **Modrinth niekedy uvádza zlé verzie** aj pri resource packoch. Ak sa pack v hre nenačíta, pozri v jeho zipe `pack.mcmeta`. Pre 1.21.1 musí podporovať `pack_format` 34.
 
@@ -105,7 +105,23 @@ Potom v testovacej inštancii v Prisme zmeň Pre-launch command na `http://local
 
 ---
 
+## Cez GitHub, bez počítača (aj z mobilu)
+
+Na stránke repa klikni na **Actions**, vľavo vyber akciu, vpravo **Run workflow**, vyplň políčka a znova **Run workflow**. Za 1–2 minúty je zmena v packu a kamoši ju dostanú pri ďalšom spustení hry.
+
+- **Pridať mód**: do políčka napíš slug alebo odkaz (`sodium` alebo `https://modrinth.com/mod/sodium`) a vyber Modrinth alebo CurseForge. Závislosti sa pridajú samy.
+- **Odobrať mód**: napíš názov, teda meno súboru `.pw.toml` bez prípony (napr. `sodium`). Ak ho napíšeš zle, beh zlyhá a v logu je zoznam všetkých názvov.
+- **Obnoviť index**: beží sám po každom pushi. Keď cez web upravíš napr. config, index sa prepočíta sám a zmenu dostanú aj hráči.
+
+Zelená fajka znamená hotovo, červený krížik chybu (klikni na beh a pozri log). Ak by niekto cez web nahral do `mods\` alebo `resourcepacks\` priamo `.jar`/`.zip`, **Obnoviť index** zlyhá a upozorní na to. Surové súbory hráčom nepôjdu, treba ich zmazať a mód pridať cez **Pridať mód**.
+
+Aj po pridaní cez GitHub si hru vyskúšaj. Ak potom robíš zmeny aj na PC, najprv daj `git pull`. Ak zabudneš, `update.bat` to spojí sám.
+
+---
+
 ## Keď pack spravuje niekto iný (zástup)
+
+Najjednoduchšie: majiteľ ho pridá ako collaboratora (bod 1) a kamarát potom používa tlačidlá z časti [Cez GitHub](#cez-github-bez-počítača-aj-z-mobilu). Nič si nemusí inštalovať. Body 2 a 3 sú len pre prácu na PC.
 
 ### 1. Majiteľ repa povolí prístup (raz)
 
