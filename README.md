@@ -28,6 +28,15 @@ Resource packy si zapni v hre: Options → Resource Packs.
 
 Svety, `options.txt`, JourneyMap a tvoje configy ostanú. Podrobnosti a ručný postup sú v `NAVOD.txt` v zipe.
 
+## Pre kamošov s TLauncherom
+
+1. V TLauncheri si cez **TL MODS** vytvor modpack `Create Aestro`: Minecraft 1.21.1, NeoForge (najnovšia 21.1.x). Módy doň nepridávaj.
+2. TLauncher zavri, rozbaľ `Create-Aestro-TLAUNCHER.zip` (pošlem ti ho) a spusti `PRIPOJIT-TLAUNCHER.bat`.
+3. Vyber číslo modpacku. Módy sa hneď stiahnu z packu.
+4. Otvor TLauncher, vyber modpack a spusti hru. Odvtedy sa pack aktualizuje sám pri každom štarte.
+
+Funguje to aj pre existujúci modpack so svetom (svety a nastavenia ostanú). Podrobnosti sú v `NAVOD-TLAUNCHER.txt` v zipe.
+
 ---
 
 ## Správa packu
