@@ -1,0 +1,13 @@
+name = "Railways Additions"
+filename = "railwaysuntold_additions-neoforge-1.0.1a.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UTtUaTGf/versions/sB02MR6U/railwaysuntold_additions-neoforge-1.0.1a.jar"
+hash-format = "sha512"
+hash = "2fc88dda9615ad5330422a556f42fe310a93df5287b096dcc8e95347c24b4bb309926ea6b996aab267f74a22e0fc16d09cadf6b049408aea6602f1440a08da7a"
+
+[update]
+[update.modrinth]
+mod-id = "UTtUaTGf"
+version = "sB02MR6U"

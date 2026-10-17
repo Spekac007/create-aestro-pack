@@ -2045,6 +2045,11 @@ hash = "391e5d415c0754ad210b8efa54fc9ded4f99e6ab8562d6faf960f3b65d84a66a"
 metafile = true
 
 [[files]]
+file = "mods/railways-additions.pw.toml"
+hash = "c253a8ab9e13235ac888237bca71fb1d75795250a10c7c7f39922a11237eff71"
+metafile = true
+
+[[files]]
 file = "mods/reconnectible-chains.pw.toml"
 hash = "84417de8f4cf28c265be60059e2381d9f45508bbf324e1889cefdbe958a64f3c"
 metafile = true
