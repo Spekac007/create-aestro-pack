@@ -1530,6 +1530,11 @@ hash = "e5812739b8f6ae47bab9fa83cd622f83089198a4a4252e85c113d79cc0a88f6e"
 metafile = true
 
 [[files]]
+file = "mods/blocks-bogies.pw.toml"
+hash = "07f30551060d5eb77a36ad9eb26131751d790d8e43378faf4143c6f53f0da245"
+metafile = true
+
+[[files]]
 file = "mods/bobo-lib.pw.toml"
 hash = "b683b3520eb452078e396bb09a539e6f19297621ee9cf2b781bae14ec7035606"
 metafile = true
