@@ -1625,6 +1625,11 @@ hash = "ede459754df771b7fed0268f983b67f9f98ccccd60df8958ffa49d28f0481106"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-toolgun.pw.toml"
+hash = "629eb4cc7414de1ed8328412431d8e14d894c44e4b9977e024f2d207be4141b1"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-x-curios-api-compat.pw.toml"
 hash = "d4a826b60b19ed71c1c22bdb015cfa714532c6440544e5a7af895109ae0b25e7"
 metafile = true
@@ -1950,6 +1955,16 @@ hash = "0d2a00252d64ed7d2d9b19994f7accb780304be61f3903d36e810714b414c6cb"
 metafile = true
 
 [[files]]
+file = "mods/linear-bearing.pw.toml"
+hash = "e92248ff7e47d94175ee315550946858967e9f1076653468a1d10a6aa53a4d82"
+metafile = true
+
+[[files]]
+file = "mods/linear-bearings-fix.pw.toml"
+hash = "210e07b6cd9ef4bbd7bb6327f5c1903f2075a684240cc4f7a629d4afe73fa4e6"
+metafile = true
+
+[[files]]
 file = "mods/lootjs.pw.toml"
 hash = "e42581d8eb65aa947dcbe6edb71b2082e84f31936b01f131758395d88dabc919"
 metafile = true
@@ -1987,6 +2002,11 @@ metafile = true
 [[files]]
 file = "mods/music-and-melody.pw.toml"
 hash = "b505a7de85c17965a7c3d66e971c9bcbbaf9b5b05afb64b1f85d137911e62732"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
 metafile = true
 
 [[files]]
