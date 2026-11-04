@@ -1,0 +1,8 @@
+name = "Strata Compass"
+filename = "stratacompass-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Spekac007/create-aestro-pack/releases/download/stratacompass-1.0.0/stratacompass-1.0.0.jar"
+hash-format = "sha256"
+hash = "273feca2a19f860599b256a2aea683f520138693e645c22d7a2f8a0141323c76"
